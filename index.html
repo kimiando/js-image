@@ -4,9 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>CSS-JS-Image</title>
 </head>
 <body>
+  <div class="controls">
+    <label for="spacing">Spacing:</label>
+    <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+
+    <label for="blur">Blur:</label>
+    <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+
+    <label for="base">Base Color:</label>
+    <input type="color" name="base" value="#ffc600">
+  </div>
+  <img src="images/tokyo-tower.jpeg" class="image" alt="tokyo-tower">
   <script src="script.js"></script>
 </body>
 </html>
